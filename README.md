@@ -9,8 +9,8 @@ Analysis of object detectors and image segmentation models on images from lidar 
 ![Ouster Lidar Reflectivity Image Example](./images/reflect_images/left0000.jpg)
 
 ## Approaches
-### yolox 
-[I'm an inline-style link](https://github.com/Megvii-BaseDetection/YOLOX)
+### YOLOx
+[YOLOx github link](https://github.com/Megvii-BaseDetection/YOLOX)
 
 ## Detection Examples
 ### Faster R-CNN

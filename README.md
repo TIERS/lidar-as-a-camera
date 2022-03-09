@@ -1,7 +1,13 @@
-# lidar-as-a-camera
+# Analyzing lidar-as-a-camera sensor 'images'
+
 Analysis of object detectors and image segmentation models on images from lidar sensors
 
+## Introduction
+
+This work explores the potential of general-purpose DL perception algorithms, specifically detection and segmentation neural networks, for processing image-like outputs of advanced lidar sensors. We focus on low-resolution images with 360º field of view obtained with lidar sensors by encoding depth, reflectivity, or near-infrared light in the image pixels.
+
 ## Ouster Lidar Generated Images
+
 ![Ouster Lidar Signal Image Example](./images/signal_images/left0000.jpg)
 
 ![Ouster Lidar Near-infrared Image Example](./images/nearir_images/left0000.jpg)
@@ -11,6 +17,7 @@ Analysis of object detectors and image segmentation models on images from lidar 
 ## Approaches
 ### Detection
 #### YOLOx
+
 [YOLOx github link](https://github.com/Megvii-BaseDetection/YOLOX)
 ### Segmentation
 

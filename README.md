@@ -85,5 +85,11 @@ For HRNet, we used the codes from google colab, here is the [link](https://colab
 This research work is supported by the R3Swarms project funded by the Secure Systems Research Center (SSRC), Technology Innovation Institute (TII).
 
 Please cite our [paper](https://arxiv.org/pdf/2203.04064.pdf) if the code or data in this repo helps your work:
-
+```
+@inproceedings{Xianjia2022AnalyzingGD,
+  title={Analyzing General-Purpose Deep-Learning Detection and Segmentation Models with Images from a Lidar as a Camera Sensor},
+  author={Yu Xianjia and Sahar Salimpour and Jorge Pe{\~n}a Queralta and Tomi Westerlund},
+  year={2022}
+}
+```
 

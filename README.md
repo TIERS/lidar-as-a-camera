@@ -37,6 +37,7 @@ The details can be seen in the [jupyter notebook for object detection](./detecti
 ### Segmentation
 #### PointRend & Mask RCNN
 The implementation of Mask RCNN and PointRend are in the [jupyter notebook for segmentation](./segmentation.ipynb).
+For utilizing PointRend, we import the libary named [Pixellib](https://github.com/ayoolaolafenwa/PixelLib). The model for PointRend segmentation can be downloaded [here](https://github.com/ayoolaolafenwa/PixelLib/releases).
 
 #### HRNet
 For HRNet, we used the codes from google colab, here is the [link](https://colab.research.google.com/github/open-mmlab/mmsegmentation/blob/master/demo/MMSegmentation_Tutorial.ipynb#scrollTo=H8Fxg8i-wHJE ).

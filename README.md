@@ -84,6 +84,6 @@ For HRNet, we used the codes from google colab, here is the [link](https://colab
 ## ACKNOWLEGEMENT
 This research work is supported by the R3Swarms project funded by the Secure Systems Research Center (SSRC), Technology Innovation Institute (TII).
 
-Please cite our Dataset paper if the code or data in this repo helps your work:
+Please cite our [paper](https://arxiv.org/pdf/2203.04064.pdf) if the code or data in this repo helps your work:
 
 

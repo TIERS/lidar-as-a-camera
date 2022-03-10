@@ -7,19 +7,29 @@ Analysis of object detectors and image segmentation models on images from lidar 
 This work explores the potential of general-purpose DL perception algorithms, specifically detection and segmentation neural networks, for processing image-like outputs of advanced lidar sensors. We focus on low-resolution images with 360º field of view obtained with lidar sensors by encoding depth, reflectivity, or near-infrared light in the image pixels.
 
 ## Ouster Lidar Generated Images
-
+### Signal Image
 ![Ouster Lidar Signal Image Example](./images/signal_images/left0000.jpg)
-
+### Near Infared Image
 ![Ouster Lidar Near-infrared Image Example](./images/nearir_images/left0000.jpg)
-
+### Refectivity Image
 ![Ouster Lidar Reflectivity Image Example](./images/reflect_images/left0000.jpg)
 
 ## Approaches
 ### Detection
+#### Faster RCNN & Mask RCNN & YOLOv5
+The implementation of these detection methods are through torchvision and torch hub models. 
+The details can be seen in the [jupyter notebook for object detection](./detection.ipynb).
+
 #### YOLOx
 
 [YOLOx github link](https://github.com/Megvii-BaseDetection/YOLOX)
 ### Segmentation
+#### PointRend & Mask RCNN
+The implementation of Mask RCNN and PointRend are in the [jupyter notebook for segmentation](./segmentation.ipynb).
+
+#### HRNet
+For HRNet, we used the codes from google colab, here is the link.
+https://colab.research.google.com/github/open-mmlab/mmsegmentation/blob/master/demo/MMSegmentation_Tutorial.ipynb#scrollTo=H8Fxg8i-wHJE
 
 ## Detection Examples
 ### Faster R-CNN
@@ -37,3 +47,11 @@ This work explores the potential of general-purpose DL perception algorithms, sp
 ![PointRend Instance Segmentation Example](./examples/pointrend/point_seg32.jpg)
 ### HRNet
 ![HRNet Semantic Segmentation Example](./examples/HRNet/seg2.png)
+
+
+## ACKNOWLEGEMENT
+This research work is supported by the R3Swarms project funded by the Secure Systems Research Center (SSRC), Technology Innovation Institute (TII).
+
+Please cite our Dataset paper if the code or data in this repo helps your work:
+
+

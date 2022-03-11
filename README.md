@@ -27,23 +27,23 @@ This work explores the potential of general-purpose DL perception algorithms, sp
 
 
 ## Preinstallation
-The preinstalled environment can be seen in [recommened_env.yml](./recommended_env.yml). This is the recommeneded settings of conda virtual environment. It can been simplely create by the command below.
+The preinstalled environment can be seen in [recommended_env.yml](./recommended_env.yml). This is the recommeneded settings of conda virtual environment. It can been simplely create by the command below.
 ```
-conda env create -f environment.yml -n <your-env-name>
+conda env create -f recommended_env.yml -n <your-env-name>
 ```
 
 ## Approaches
 ### Detection
 #### Faster RCNN & Mask RCNN & YOLOv5
 The implementation of these detection methods are through torchvision and torch hub models. 
-The details can be seen in the [jupyter notebook for object detection](./detection.ipynb).
+The details can be seen in the [detection.ipynb](./detection.ipynb).
 
 #### YOLOx
 
 [YOLOx github link](https://github.com/Megvii-BaseDetection/YOLOX)
 ### Segmentation
 #### PointRend & Mask RCNN
-The implementation of Mask RCNN and PointRend are in the [jupyter notebook for segmentation](./segmentation.ipynb).
+The implementation of Mask RCNN and PointRend are in the [segmentation.ipynb](./segmentation.ipynb).
 For utilizing PointRend, we import the libary named [Pixellib](https://github.com/ayoolaolafenwa/PixelLib). The model for PointRend segmentation can be downloaded [here](https://github.com/ayoolaolafenwa/PixelLib/releases).
 
 #### HRNet

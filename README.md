@@ -27,7 +27,10 @@ This work explores the potential of general-purpose DL perception algorithms, sp
 
 
 ## Preinstallation
-TODO
+The preinstalled environment can be seen in [recommened_env.yml](./recommended_env.yml). This is the recommeneded settings of conda virtual environment. It can been simplely create by the command below.
+```
+conda env create -f environment.yml -n <your-env-name>
+```
 
 ## Approaches
 ### Detection
